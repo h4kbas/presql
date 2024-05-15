@@ -1,6 +1,6 @@
 {
   "name": "@h4kbas/presql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple library to generate SQL queries from Javascript",
   "main": "index.js",
   "scripts": {
