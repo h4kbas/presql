@@ -1,11 +1,15 @@
 {
   "name": "@h4kbas/presql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library to generate SQL queries from Javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hüseyin Akbaş <h4kbas@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h4kbas/presql.git"
+  }
 }
