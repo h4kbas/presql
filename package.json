@@ -1,11 +1,11 @@
 {
   "name": "presql",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple library to generate SQL queries from Javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Hüseyin Akbaş <h4kbas@gmail.com>",
+  "license": "MIT"
 }
