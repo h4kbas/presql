@@ -1,5 +1,7 @@
 class PreSqlTerminal {
-  constructor(public val: string) {
+  public val: string;
+
+  constructor(val: string) {
     this.val = val;
   }
 
