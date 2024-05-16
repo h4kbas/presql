@@ -58,7 +58,7 @@ type PreSqlFunctionVal =
   | PreSqlSentence
   | [string | number | boolean | PreSqlSentence, Options];
 
-export function WITH(...args: [PreSqlFunctionVal, PreSqlSentence][]) {
+export function With(...args: [PreSqlFunctionVal, PreSqlSentence][]) {
   return new PreSqlFunctionWith(
     `WITH ${args
       .map(([name, sentence]) => `${name} AS (${Q(...sentence)})`)
